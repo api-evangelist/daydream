@@ -1,9 +1,31 @@
 aid: daydream
-name: Daydream
-description: Daydream is a company surfaced as a portfolio company of 8vc, forerunner-ventures, gv, index-ventures,
-  true-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead
-  awaiting the enrichment pipeline.
+name: DayDream Dental
+description: >-
+  DayDream Dental is a full-service dental billing and revenue cycle management
+  (RCM) provider that runs the insurance and billing operations for dental
+  practices and DSOs so clinical teams can focus on patient care. Services span
+  insurance verification with custom coding breakdowns saved directly to the
+  practice management system (PMS), clean claims submission with attachments and
+  narratives, payment posting with accurate insurance adjustments, diligent
+  claim follow-up every seven days until paid with denials appealed, and patient
+  billing via text, email, and mail. DayDream operates a HIPAA-focused trust
+  center and a client dashboard app, and publishes a blog, CDT-code and payer
+  references, videos, and demo scheduling for onboarding new offices. This is a
+  service company rather than an API provider — it publishes no public developer
+  portal, API reference, or OpenAPI.
 url: https://raw.githubusercontent.com/api-evangelist/daydream/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/68362d58021f1b602d042278/683a570cb5eda385ddd2d2a9_og%20daydream.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -14,11 +36,24 @@ x-backed-by:
 - true-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment-note: >-
+  Enriched 2026-07-18 from the live site at daydream.dental, which is DayDream
+  Dental, a dental-billing / RCM SERVICE (no public API). The x-backed-by VC set
+  likely reflects a portfolio-name collision with a different consumer-tech
+  "Daydream" and should be reconciled by the VC pipeline; identity here is
+  grounded only in the real daydream.dental surface.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
-- Company
+- Dental
+- Billing
+- Revenue Cycle Management
+- Healthcare
+- Insurance Verification
+- Claims
+- RCM
+- Dental Service Organization
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,4 +62,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://daydream.dental
+  url: https://www.daydream.dental
+- type: Blog
+  url: https://www.daydream.dental/blog
+- type: Support
+  url: mailto:support@daydream.dental
+- type: SignUp
+  url: https://www.daydream.dental/demo-call
+- type: Login
+  url: https://app.daydream.dental/dashboard
+- type: PrivacyPolicy
+  url: https://www.daydream.dental/privacy-policy
+- type: TermsOfService
+  url: https://www.daydream.dental/terms-of-service
+- type: TrustCenter
+  url: https://hipaa.daydream.dental
+- type: DomainSecurity
+  url: security/daydream-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
