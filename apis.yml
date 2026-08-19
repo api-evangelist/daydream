@@ -42,7 +42,7 @@ x-enrichment-note: >-
   likely reflects a portfolio-name collision with a different consumer-tech
   "Daydream" and should be reconciled by the VC pipeline; identity here is
   grounded only in the real daydream.dental surface.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
