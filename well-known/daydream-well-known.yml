@@ -2,19 +2,24 @@ generated: '2026-07-18'
 method: probed
 source: live probes of https://www.daydream.dental/.well-known/*
 host: https://www.daydream.dental
-note: >-
-  DayDream Dental is a dental-billing / RCM service company, not an API
-  provider. No /.well-known discovery documents are published. All probes
-  returned 404 (recorded as honest negative evidence); no WellKnown pointer
-  is wired because nothing was found.
-documents:
-- path: /.well-known/security.txt
-  status: 404
-- path: /.well-known/openid-configuration
-  status: 404
-- path: /.well-known/oauth-authorization-server
-  status: 404
-- path: /.well-known/api-catalog
-  status: 404
-- path: /.well-known/ai-plugin.json
-  status: 404
+note: DayDream Dental is a dental-billing / RCM service company, not an API provider. No /.well-known
+  discovery documents are published. All probes returned 404 (recorded as honest negative evidence); no
+  WellKnown pointer is wired because nothing was found.
+hosts:
+- host: https://www.daydream.dental
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
