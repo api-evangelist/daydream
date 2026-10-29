@@ -64,12 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-DayDream Dental is a full-service dental billing and revenue cycle management (RCM) provider that runs the insurance and billing operations for dental practices and DSOs — insurance verification, claims submission, payment posting, claim follow-up, and patient billing — so clinical teams can focus on patient care.
+DayDream Dental is a full-service dental billing and revenue cycle management (RCM) provider that runs the insurance and billing operations for dental practices and DSOs so clinical teams can focus on patient care. Services span insurance verification with custom coding breakdowns saved directly to the practice management system (PMS), clean claims submission with attachments and narratives, payment posting with accurate insurance adjustments, diligent claim follow-up every seven days until paid with denials appealed, and patient billing via text, email, and mail. DayDream operates a HIPAA-focused trust center and a client dashboard app, and publishes a blog, CDT-code and payer references, videos, and demo scheduling for onboarding new offices. This is a service company rather than an API provider — it publishes no public developer portal, API reference, or OpenAPI.
 
-- Website: https://www.daydream.dental
-- Blog: https://www.daydream.dental/blog
-- Trust Center (HIPAA): https://hipaa.daydream.dental
-- Client app: https://app.daydream.dental/dashboard
-- Support: support@daydream.dental
+**Areas:** Dental · Billing · Revenue Cycle Management · Healthcare · Insurance Verification · Claims · RCM · Dental Service Organization
 
-This is a service company, not an API provider: it publishes no public developer portal, API reference, or OpenAPI. The API Evangelist profile is limited to verified identity and probed domain security. The `x-backed-by` VC list likely reflects a portfolio-name collision with a different consumer-tech "Daydream" and should be reconciled by the VC pipeline.
+## DayDream Dental on APIs.io
+
+Everything profiled for DayDream Dental is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/daydream/](https://apis.io/providers/daydream/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Daydream Domain Security](https://apis.io/security/daydream/daydream-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.daydream.dental)
+- [Sign up](https://www.daydream.dental/demo-call)
+- [Blog](https://www.daydream.dental/blog)
+- [Trust centre](https://hipaa.daydream.dental)
+- [Terms of service](https://www.daydream.dental/terms-of-service)
+- [Privacy policy](https://www.daydream.dental/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 14.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 42.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 16.7** — Insurance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/daydream/](https://apis.io/providers/daydream/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for DayDream Dental: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/daydream/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
